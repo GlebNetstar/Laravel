@@ -11,7 +11,6 @@
             </div>
 
             <div class="modal-body">
-                {!! $errors->first() !!}
 
                 <form method="POST" action="/auth/register" class="form col-md-12 center-block">
                     {!! csrf_field() !!}
